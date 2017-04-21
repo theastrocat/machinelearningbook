@@ -1,7 +1,5 @@
 import numpy as np
 
-
-
 class Perceptron(object):
     """ Perceptron classifier.
 
@@ -39,7 +37,7 @@ class Perceptron(object):
         --------
         self : object
         """
-        self._w = np.zeroes(1 + X.shape[1])
+        self._w = np.zeros(1 + X.shape[1])
         self._errors = []
 
 
